@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 32px 20px;
+    background-color: black;
+}
+
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.nav-menu a {
+    color: white;
+}
+
+.login-book {
+    display: flex;
+    gap: 30px;
+}
+
+.login-book a {
+    color: white;
+}
+
+.login-book p {
+    color: white;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-size: 37px;
+    font-weight: bold;
+}
