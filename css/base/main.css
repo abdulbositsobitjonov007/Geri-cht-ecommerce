@@ -23,3 +23,9 @@ a{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.container1{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}

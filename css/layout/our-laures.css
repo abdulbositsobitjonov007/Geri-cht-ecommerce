@@ -1,0 +1,70 @@
+.our-laures{
+    display: flex;
+    align-items: center;
+    gap: 101px;
+    padding: 128px 0;
+}
+
+#our-laures{
+    background-color: #040404;
+}
+
+.child5 h2{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+
+.child5 h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #DCCA87;
+}
+
+.child6{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.bib-groumand{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.bib-groumand h1{
+    font-size: 23px;
+    font-weight: 700;
+    color: #DCCA87;
+}
+
+.bib-groumand p{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 190px;
+    color: #AAAAAA;
+}
+
+.rising-star{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.rising-star h1 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #DCCA87;
+}
+
+.rising-star p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 190px;
+    color: #AAAAAA;
+}
+
+.child7 h1{
+    margin-bottom: 64px;
+}
