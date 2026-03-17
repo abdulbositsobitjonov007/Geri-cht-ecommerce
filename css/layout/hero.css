@@ -1,0 +1,41 @@
+.father1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+}
+
+#hero{
+    padding-top: 169px;
+    background-color: black;
+}
+
+.child1 h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+
+.child1 h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: #DCCA87;
+    max-width: 453px;
+    margin-bottom: 32px;
+}
+
+.child1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #AAAAAA;
+    max-width: 453px;
+    margin-bottom: 40px;
+}
+
+.child1 button{
+    color: black;
+    background-color: #DCCA87;
+    border: none;
+    padding: 8px 32px;
+    font-size: 16px;
+}

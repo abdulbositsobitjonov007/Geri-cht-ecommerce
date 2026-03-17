@@ -1,0 +1,44 @@
+.chef{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    padding: 124px 0;
+}
+
+.child4 h3{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.child4 h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #DCCA87;
+    margin-bottom: 64px;
+}
+
+.child4 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #AAAAAA;
+    max-width: 570px;
+    margin-bottom: 64px;
+}
+
+.child4 h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #DCCA87;
+}
+
+.child4 h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #AAAAAA;
+    margin-bottom: 64px;
+}
+
+#chef{
+    background-color: #040404;
+}
