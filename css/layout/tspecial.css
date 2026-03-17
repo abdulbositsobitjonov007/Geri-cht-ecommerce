@@ -1,0 +1,115 @@
+#tspecial{
+ background-image: url("/assets/images/Vector\ 14.png");   
+ padding: 127px 20px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ color: white;
+}
+
+.tspecial-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tspecial-titles p{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+}   
+
+.tspecial-titles h1{
+    color:#DCCA87;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.tspecial-menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.w-b-title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.tspecial-menu-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.w-b-menu-product{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.w-b-menu-title{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.w-b-menu-title h4{
+    color: #DCCA87;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+    white-space: nowrap;
+}
+
+.w-b-menu-title p{
+    color: #DCCA87;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 4%;
+    white-space: nowrap;
+}
+
+.w-b-menu-hr{
+    width: 100%;
+}
+
+.w-b-menu-price{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 4%;
+}
+
+.btn-view-more button{
+    background-color: #DCCA87;
+    font-family: "Cormorant Garamond";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 4%;
+    white-space: nowrap;
+    max-width: 136px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 64px;
+}
