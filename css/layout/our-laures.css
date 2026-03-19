@@ -7,6 +7,7 @@
 
 #our-laures{
     background-color: #040404;
+    padding: 0 20px;
 }
 
 .child5 h2{
@@ -67,4 +68,23 @@
 
 .child7 h1{
     margin-bottom: 64px;
+}
+
+.img3 img{
+    max-width: 555px;
+    width: 100%;
+}
+
+@media (max-width: 1240px) {
+    .our-laures{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 616px) {
+    .child5 h1{
+        font-size: 50px;
+    }
 }

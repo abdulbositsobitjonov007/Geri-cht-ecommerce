@@ -63,4 +63,33 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #040404;
+    padding: 0 20px;
+}
+
+.knife{
+    display: flex;
+    transform: rotate(0);
+    max-width: 84px;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .father2{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .knife{
+        display: none;
+    }
+    .child2{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .child2 p{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
 }
