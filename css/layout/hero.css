@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 180px;
+    gap: 80px;
+    padding-top: 48px;
+    padding-bottom: 152px;
 }
 
 #hero{
-    padding-top: 169px;
+    padding: 0 20px;
     background-color: black;
 }
 
@@ -38,4 +40,29 @@
     border: none;
     padding: 8px 32px;
     font-size: 16px;
+}
+
+.img img{
+    max-width: 667px;
+    width: 100%;
+}
+
+@media (max-width:800px) {
+    .father1{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 70px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .img img{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .child1 h1{
+        font-size: 50px;
+    }
 }
