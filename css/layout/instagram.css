@@ -1,0 +1,43 @@
+#instagram {}
+
+.instagram-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.instagram-text h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 4%;
+}
+
+.instagram-text h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 3%;
+    color: #DCCA87;
+}
+
+.instagram-text p {
+    max-width: 491px;
+    width: 100%;
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 4%;
+
+}
+
+.insta-btn{
+    max-width: 136px;
+    width: 100%;
+    height: 44px;
+    background-color: #DCCA87;
+    color: black;
+    font-weight: bold;
+}
